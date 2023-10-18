@@ -22,7 +22,7 @@ $(document).ready(function() {
       event.preventDefault(); // Empêche la soumission par défaut du formulaire
 
       // Récupérer la valeur saisie par l'utilisateur
-      var enteredValue = parseInt($('#value').val());
+      var enteredValue = parseInt($('#valeur').val());
 
       // Vérifier si la valeur saisie est égale au nombre aléatoire
       if (enteredValue === randomValue) {
