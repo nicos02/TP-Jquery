@@ -11,7 +11,6 @@ $(document).ready(function () {
     // Récupérer la valeur saisie par l'utilisateur depuis l'élément avec l'ID "valeur"
     var valeurNumerique = $("#valeur").val();
 
-    // Faites quelque chose avec la valeur (dans cet exemple, affichez-la dans la console)
     console.log("La valeur numérique saisie est : " + valeurNumerique);
   });
 });
